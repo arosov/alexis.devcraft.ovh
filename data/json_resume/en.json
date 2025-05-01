@@ -1,155 +1,139 @@
 {
-  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Richard Hendricks",
-    "label": "Programmer",
-    "image": "https://hugo-theme-gruvbox.schnerring.net/richard-hendricks.webp",
-    "email": "richard.hendricks@piedpiper.com",
-    "phone": "(912) 555-4321",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory.",
+    "name": "Alexis Rosovsky",
+    "label": "Software Engineer Kotlin / Android / AOSP",
+    "email": "alex.roso@gmail.com",
     "location": {
-      "city": "San Francisco"
+      "city": "Paris",
+      "region": "Île-de-France",
+      "countryCode": "FR"
     },
     "profiles": [
       {
-        "network": "GitHub",
-        "username": "hugo-theme-gruvbox",
-        "url": "https://github.com/schnerring/hugo-theme-gruvbox"
-      },
-      {
-        "network": "GitHub",
-        "username": "hugo-mod-json-resume",
-        "url": "https://github.com/schnerring/hugo-mod-json-resume"
-      },
-      {
-        "network": "X",
-        "url": "https://x.com/SiliconHBO"
-      },
-      {
-        "network": "fandom",
-        "url": "https://silicon-valley.fandom.com/wiki/Richard_Hendricks"
-      },
-      {
-        "network": "HBO",
-        "url": "https://www.hbo.com/silicon-valley"
-      },
-      {
-        "network": "IMDB",
-        "url": "https://www.imdb.com/title/tt2575988/"
-      },
-      {
-        "network": "Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/List_of_Silicon_Valley_characters#Richard_Hendricks"
+        "network": "LinkedIn",
+        "username": "alexis-rosovsky",
+        "url": "https://www.linkedin.com/in/alexis-rosovsky-b5738693"
       }
-    ]
+    ],
+    "summary": "Software developer with Android and AOSP experience. Passionate about Kotlin Multiplatform, Jetpack Compose, networking, video streaming (WebRTC), and security. Holds an engineering degree in Networking."
   },
-  "work": [
-    {
-      "name": "Pied Piper",
-      "location": "Palo Alto, CA",
-      "description": "Awesome compression company",
-      "position": "CEO/President",
-      "url": "http://piedpiper.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
-      "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "url": "http://coderdojo.example.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
-      "highlights": ["Awarded 'Teacher of the Month'"]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Oklahoma",
-      "url": "https://www.ou.edu/",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "score": "4.0",
-      "courses": ["DB1101 - Basic SQL", "CS2011 - Java Introduction"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
-    }
-  ],
-  "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
-    }
-  ],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": ["HTML", "CSS", "Javascript"]
+      "name": "Programming",
+      "keywords": ["Kotlin", "Android", "Jetpack Compose", "Kotlin Multiplatform", "IA"]
     },
     {
-      "name": "Compression",
-      "level": "Master",
-      "keywords": ["Mpeg", "MP4", "GIF"]
+      "name": "Google Cloud Platform",
+      "keywords": ["IAM", "ServiceAccounts", "Cloud Run", "ComputeEngine", "Pub/Sub", "Firestore", "Storage"]
+    },
+    {
+      "name": "Tools",
+      "keywords": ["Git", "GithubActions", "Repo"]
+    },
+    {
+      "name": "Networking & Video",
+      "keywords": ["WebRTC", "Miracast", "Bluetooth-BLE", "srt", "ffmpeg", "gstreamer"]
     }
   ],
   "languages": [
     {
+      "language": "French",
+      "fluency": "Native"
+    },
+    {
       "language": "English",
-      "fluency": "Native speaker"
+      "fluency": "Fluent"
     }
   ],
-  "interests": [
+  "work": [
     {
-      "name": "Wildlife",
-      "keywords": ["Ferrets", "Unicorns"]
-    }
-  ],
-  "references": [
-    {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
-    }
-  ],
-  "projects": [
-    {
-      "name": "Miss Direction",
-      "description": "A mapping engine that misguides you",
+      "name": "SyncVR Medical",
+      "description": "VR for Healthcare",
+      "url": "https://www.syncvrmedical.com/",
+      "position": "Android Software Engineer",
+      "startDate": "2022-01",
+      "endDate": "2023-10",
+      "summary": "Worked on MDM Agent for Android devices. Developed video streaming for Android VR and desktop provisioning tools for MDM.",
       "highlights": [
-        "Won award at AIHacks 2016",
-        "Built by all women team of newbie programmers",
-        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
-      ],
-      "keywords": ["GoogleMaps", "Chrome Extension", "Javascript"],
-      "startDate": "2016-08-24",
-      "endDate": "2016-08-24",
-      "roles": ["Team lead", "Designer"],
-      "entity": "Smoogle",
-      "type": "application"
+        "Mobile Device Management agent for VR headsets",
+        "Multiplatform provisioning tool (Windows/Mac/Linux)",
+        "Video streaming solution for Android VR"
+      ]
+    },
+    {
+      "name": "FAMOCO",
+      "url": "https://famoco.com",
+      "description": "Secure mobile solutions for businesses",
+      "position": "Embedded Software Engineer",
+      "startDate": "2017-09",
+      "endDate": "2019-07",
+      "summary": "Develop Famoco OS to devices tailored for professional use-cases.",
+      "highlights": [
+        "Customize SecureBoot key for dm-verity",
+        "Continuous Integration for system images and OTAs",
+        "GPIO SDK & demo app"
+      ]
+    },
+    {
+      "name": "Genymobile",
+      "url": "https://genymobile.com",
+      "description": "Creators of Genymotion Android Emulator",
+      "position": "Ingénieur Android",
+      "startDate": "2014-10",
+      "endDate": "2017-04",
+      "highlights": [
+        "Worked on Genymaster (AOSP-based custom Android system)",
+        "Developed Genydeploy for MDM provisioning",
+        "Developed solutions for Parrot, Laster, Arkamys"
+      ]
+    },
+    {
+      "name": "Parrot",
+      "url": "https://parrot.com",
+      "description": "OEM Automotive and flying drones",
+      "position": "Ingénieur Android",
+      "startDate": "2011-01",
+      "endDate": "2014-09",
+      "highlights": [
+        "Android application and library development for OEM platforms",
+        "Driver integration (WiFi/BT)",
+        "Miracast sink development with Gstreamer",
+        "Participated in Google I/O 2013, CES 2014"
+      ]
+    },
+    {
+      "name": "Capgemini",
+      "url": "https://capgemini.com",
+      "description": "Multinational technology services",
+      "position": "Java J2EE Intern",
+      "startDate": "2010-01",
+      "endDate": "2010-06",
+      "summary": "Java routine for automatic SMS and J2EE portal enhancements"
+    },
+    {
+      "name": "Ministère de la Défense / ONACVG",
+      "url": "https://dgse.gouv.fr",
+      "position": "Java Swing Intern",
+      "startDate": "2009-03",
+      "endDate": "2009-08",
+      "summary": "Developed interactive UI with Swing, MVC refactor, deployed via JNLP"
     }
   ],
-  "meta": {
-    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
-    "version": "v1.0.0",
-    "lastModified": "2017-12-24T15:53:00"
-  }
+  "education": [
+    {
+      "institution": "EFREI - Ecole Française d'Electronique et d'Informatique",
+      "area": "Networking and Telecommunications",
+      "studyType": "Master 2",
+      "startDate": "2009",
+      "endDate": "2010"
+    },
+    {
+      "institution": "Université Denis Diderot (Paris VII)",
+      "area": "Computer Science",
+      "studyType": "Licence 3",
+      "startDate": "2005",
+      "endDate": "2007"
+    }
+  ]
 }
+
